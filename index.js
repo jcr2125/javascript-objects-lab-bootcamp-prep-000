@@ -13,3 +13,8 @@ function deleteFromObjectByKey(obj, key){
   delete newObj[key];
   return newObj;
 }
+
+function destructivelyDeleteFromObjectByKey(obj, key){
+  delete obj[key];
+  return obj;
+}
